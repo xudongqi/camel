@@ -19,6 +19,8 @@ agent：
 采用spring-boot，所以需要在jdk1.7及以上的环境运行
 mvn spring-boot:run
 或者打jar包，java -jar .jar
+/etc/init.d/nginx
+所有者有sudo权限
 
 nginx：
 安装 sudo ./install_dengine
