@@ -11,23 +11,23 @@
         <element name="tengine-config-base-dir" value-type="String"
                  default-value="/data/appdatas/phoenix/slb/git_base/phoenix-slb-tengine-config-ppe"/>
         <element name="deploy-log-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=log&amp;deployId=%s"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=log&amp;deployId=%s"/>
         <element name="deploy-url-reload-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=deploy&amp;deployId=%s&amp;vs=%s&amp;config=%s&amp;version=%s&amp;gitUrl=%s&amp;reload=true"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=deploy&amp;deployId=%s&amp;vs=%s&amp;config=%s&amp;version=%s&amp;gitUrl=%s&amp;reload=true"/>
         <element name="update-file-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=update&amp;vs=%s&amp;fileName=%s"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=update&amp;vs=%s&amp;fileName=%s"/>
         <element name="deploy-url-dynamic-refresh-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=deploy&amp;deployId=%s&amp;vs=%s&amp;config=%s&amp;version=%s&amp;gitUrl=%s&amp;reload=false"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=deploy&amp;deployId=%s&amp;vs=%s&amp;config=%s&amp;version=%s&amp;gitUrl=%s&amp;reload=false"/>
         <element name="deploy-status-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=status&amp;deployId=%s"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=status&amp;deployId=%s"/>
         <element name="agent-tengine-config-version-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=version&amp;vs=%s"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=version&amp;vs=%s"/>
         <element name="agent-vs-list-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=listvs"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=listvs"/>
         <element name="agent-remove-vs-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=delvs&amp;vs=%s"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=delvs&amp;vs=%s"/>
         <element name="agent-reload-url-pattern" value-type="String"
-                 default-value="http://%s:3473/phoenix/agent/nginx?op=reload"/>
+                 default-value="http://%s:3473/slb/agent/nginx?op=reload"/>
         <element name="deploy-getlog-retrycount" value-type="int" primitive="true" default-value="10"/>
         <element name="deploy-connect-timeout" value-type="int" primitive="true" default-value="10000"/>
         <element name="deploy-retry-interval" value-type="int" primitive="true" default-value="30000"/>

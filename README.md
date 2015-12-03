@@ -4,6 +4,8 @@
 手工部署
 api部署(大部分是更改upstream)：增删改查
 每天数千次
+jdk6
+java maven 3.2以上 mongodb
 
 安装步骤：
 admin：
@@ -14,6 +16,9 @@ log：/data/applogs/slb/
 mvn jetty:run -Djetty.port=8080
 
 agent：
+采用spring-boot
+mvn spring-boot:run
+或者打jar包，java -jar .jar
 
 nginx：
 安装 sudo ./install_dengine
@@ -24,3 +29,6 @@ nginx：
 maven compile时找不到unidal或者xwork的依赖？
 slb使用了unidal codegen插件。该插件已部署在maven中心仓库中，但不一定部署在其它maven仓库里(如开源中国OSChina)。为此，slb内置了依赖仓库和插件仓库，在项目内部寻找依赖。
 如果你在maven配置settings.xml中设置了全局镜像<mirrorOf>*</mirrorOf>，则内置仓库会失效。此时请把镜像的匹配范围更改至某个仓库。
+
+
+计划：
