@@ -1,9 +1,17 @@
 ## slb-open-source
 
 七层软负一体解决方案
+手工部署
+api部署(大部分是更改upstream)：增删改查
+每天数千次
 
 安装步骤：
+admin：
+配置文件
+sample：src/main/resources/init-data/ 下 jdbc-mysql.properties  slb.properties
+配置到：/data/appdatas/slb/
 
+agent：
 
 nginx：
 安装
