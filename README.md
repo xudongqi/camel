@@ -10,6 +10,8 @@ admin：
 配置文件
 sample：src/main/resources/init-data/ 下 jdbc-mysql.properties  slb.properties
 配置到：/data/appdatas/slb/
+log：/data/applogs/slb/
+mvn jetty:run -Djetty.port=8080
 
 agent：
 
