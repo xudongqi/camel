@@ -16,7 +16,7 @@ mvn jetty:run -Djetty.port=8080
 agent：
 
 nginx：
-安装 sudo su Dengine/install_dengine
+安装 sudo ./install_dengine
 更改nginx_status.conf
 
 
