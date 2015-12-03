@@ -16,7 +16,7 @@ log：/data/applogs/slb/
 mvn jetty:run -Djetty.port=8080
 
 agent：
-采用spring-boot
+采用spring-boot，所以需要在jdk1.7及以上的环境运行
 mvn spring-boot:run
 或者打jar包，java -jar .jar
 
